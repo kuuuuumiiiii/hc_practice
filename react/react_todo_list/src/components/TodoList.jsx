@@ -23,9 +23,7 @@ export const TodoList = ({taskList, setTaskList}) => {
     });
     setTaskList(updatedTaskList);
     setEditingTask(null);
-    
   };
-
 
   const handleDelete = (id) => {
     // 確認ダイアログを表示し、OKなら削除を実行する
